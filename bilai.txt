@@ -1,0 +1,12 @@
+or example, if three accounts were added, should look like this:
+
+# github account
+Host github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_myaccount_github
+
+# gitlab account
+Host gitlab.com
+HostName gitlab.com
+PreferredAuthentications publickey
